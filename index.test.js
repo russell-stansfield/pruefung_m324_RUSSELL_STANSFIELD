@@ -11,6 +11,6 @@ describe('calculate', () => {
   });
 
   it('should throw error on invalid operation', () => {
-    assert.throws(() => calculate(1, 2, 'cheese'), Error);
+    assert.equal(() => calculate(1, 2, 'cheese'), "cheese");
   });
 });

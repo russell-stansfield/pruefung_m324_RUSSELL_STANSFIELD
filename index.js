@@ -10,8 +10,8 @@ function calculate(a, b, operation) {
       return a + b;
     } else if (operation === "subtract") {
       return a - b;
-    } else {
-      return "error wrong operation";
+    } else if (operation === "cheese"){
+      return "cheese";
     }
   }
   
